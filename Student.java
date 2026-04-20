@@ -1,42 +1,29 @@
 
 public class Student {
-     private int rollNo;
-     private String studName;
-     private String studBranch;
-     public Student() // DEFAULT CONSTRUCTOR
-     {
-    	 rollNo = -1;
-    	 studName = "NA";
-    	 studBranch = "NA";
-     }
-     
-     public Student(int rollNo,String studName,String studBranch)  // PARAMETERIZED CONSTRUCTOR
-     {
-    	 System.out.println(" Inside Parameterized Constructor...");
-    	 this.rollNo = rollNo;
-    	 this.studName = studName;
-    	 this.studBranch = studBranch;
-     }
-     
-     
-     
-	 public int getRollNo() {
-		 return rollNo;
-	 }
-	 public void setRollNo(int rollNo) {
-		 this.rollNo = rollNo;
-	 }
-	 public String getStudName() {
-		 return studName;
-	 }
-	 public void setStudName(String studName) {
-		 this.studName = studName;
-	 }
-	 public String getStudBranch() {
-		 return studBranch;
-	 }
-	 public void setStudBranch(String studBranch) {
-		 this.studBranch = studBranch;
-	 }
-     
+	private int PRN_No;
+	private String stud_Name;
+	private String stude_Dept;
+	public int getPRN_No() {
+		return PRN_No;
+	}
+	public void setPRN_No(int pRN_No) {
+		PRN_No = pRN_No;
+	}
+	public String getStud_Name() {
+		return stud_Name;
+	}
+	public void setStud_Name(String stud_Name) {
+		this.stud_Name = stud_Name;
+	}
+	public String getStude_Dept() {
+		return stude_Dept;
+	}
+	public void setStude_Dept(String stude_Dept) {
+		this.stude_Dept = stude_Dept;
+	}
+	
+	
+	
+	
+
 }
